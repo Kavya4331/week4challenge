@@ -10,7 +10,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the cleaned dataset
-file_path = r"C:\Users\hp\OneDrive\Documents\P PROJECTS\nani\Fully_Cleaned_BSS_Retail_Data.csv"
+file_path = "Fully_Cleaned_BSS_Retail_Data.csv"
+
 data = pd.read_csv(file_path)
 
 # Set the title of the dashboard
